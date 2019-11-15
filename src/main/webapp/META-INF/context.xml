@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/DAOFactoryFranciscoAMP">
+    <Resource
+        name="jdbc/FactMy"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxActive="100"
+        maxIdle="30"
+        maxWait="10000"
+        username="java2019"
+        password="2019"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/pruebasJAVA?autoReconnect=true"   
+     />
+        <Resource auth="Container" 
+            driverClassName="org.apache.derby.jdbc.EmbeddedDriver" 
+            maxActive="100" 
+            maxIdle="30" 
+            maxWait="10000" 
+            name="jdbc/FactDe" 
+            password="2019" 
+            type="javax.sql.DataSource" 
+            url="jdbc:derby:/Users/paco/avifauna" 
+            username="java2019"/>
+</Context>
